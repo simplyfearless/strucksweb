@@ -1,0 +1,36 @@
+.TestimonialSlider {
+    position: relative;
+    z-index: 0;
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+    .profile-pic {
+        width: 124px;
+    }
+    .testimonial {
+        &:before {
+            content: open-quote;
+        }
+        &:after {
+            content: close-quote;
+        }
+        font-size: 1.25rem;
+        font-style: italic;
+        @media(min-width: 768px) {
+            font-size: 1.5rem;
+        }
+        @media(min-width: 1024px) {
+            font-size: 2rem;
+        }
+        @media(min-width: 1600px) {
+            font-size: 2.5em;
+        }
+    }
+    .author {
+        font-weight: 400;
+        font-size: 1rem;
+        @media(min-width: 1024px) {
+            font-size: 1.25rem;
+        }
+        margin-bottom: 0;
+    }
+}

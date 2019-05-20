@@ -1,0 +1,25 @@
+body .PromiseTeaser {
+    text-align: center!important;
+    padding-left: 0;
+    padding-right: 0;
+    .row {
+        margin-lefT: 0;
+        margin-right: 0;
+        .col-12 {
+            h3 {
+                font-size: 1.25em;
+                margin-bottom: .5em;
+            }
+            p {
+                font-size: .9em;
+                margin-bottom: 0!important;
+            }
+            img {
+                width: 72px!important;
+                height: 72px;
+            }
+            padding-top: 45px;
+            padding-bottom: 45px;
+        }
+    }
+}

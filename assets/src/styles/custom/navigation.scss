@@ -1,0 +1,41 @@
+div#header-grid {
+    display: flex;
+    position: fixed;
+    z-index: 9;
+    width: 100%;
+    flex: 0 0 100%;
+    max-width: initial;
+    flex-direction: column;
+}
+body .primary-menu-ul {
+    a {
+        text-transform: uppercase;
+        font-size: 16px;
+        color: #1fb2de!important;
+        @media (min-width: 1024px) {
+            font-size: 14px;
+        }
+        @media (min-width: 1600px) {
+            font-size: 16px;
+        }
+    }
+}
+body .hide-on-desktop, .hfg-grid .hide-on-desktop {
+    display: block;
+    @media (min-width: 1053px) {
+        display: none;
+    }
+}
+body .hide-on-tablet, .hfg-grid .hide-on-tablet {
+    display: none;
+    @media (min-width: 1053px) {
+        display: block;
+    }
+}
+body .nv-nav-wrap {
+    min-height: initial;
+    height: 40px;
+}
+body .site-logo {
+    padding: 5px 0!important;
+}
